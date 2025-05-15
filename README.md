@@ -1,16 +1,11 @@
-TRAFFIC SIGN CLASSIFICATION – COMP30027 PROJECT 2 (2025)
-=========================================================
+# TRAFFIC SIGN CLASSIFICATION – COMP30027 PROJECT 2 (2025)
 
-Overview:
----------
+## Overview:
 This project aims to classify German traffic signs into one of 43 classes using extracted features. 
 
 
-Directory Structure:
---------------------
+## Directory Structure:
 The project is organized as follows:
-
-
 
 - train\
     Folder with training image
@@ -36,8 +31,7 @@ The project is organized as follows:
 - README.txt
     This file
 
-Data:
------
+## Data:
 - 5488 training images with class labels
 - 2353 test images without labels
 - 43 total traffic sign classes
@@ -47,8 +41,7 @@ Data:
     * Additional features (edge density, texture variance, mean RGB)
 
 
-Submission Format (Kaggle) (CSV):
-------------------------
+## Submission Format (Kaggle) (CSV):
 Final submission should follow this structure:
 
 Id,ClassId
@@ -61,7 +54,7 @@ Id,ClassId
 ## Python Version:
 3.9.19
 
-## Required Packages in Anaconda:
+## Requirments:
 - numpy
 - pandas
 - opencv
