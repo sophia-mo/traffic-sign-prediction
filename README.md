@@ -58,10 +58,10 @@ Id,ClassId
 521.jpg,12
 
 
-Python Version:
+## Python Version:
 3.9.19
 
-Required Packages in Anaconda:
+## Required Packages in Anaconda:
 - numpy
 - pandas
 - opencv
