@@ -56,3 +56,16 @@ Id,ClassId
 94,2
 ...
 521.jpg,12
+
+
+Python Version:
+3.9.19
+
+Required Packages in Anaconda:
+- numpy
+- pandas
+- opencv
+- tqdm
+- pillow
+- scikit-learn
+- scikit-image
