@@ -3,33 +3,28 @@
 ## Overview:
 This project aims to classify German traffic signs into one of 43 classes using extracted features. 
 
-
 ## Directory Structure:
 The project is organized as follows:
-
-- train\
-    Folder with training image
-	- train_metadata.csv
-    		Metadata for training images (ids, image filenames and class labels)
-	- Features\
-    		Contains:
-      		- color_histogram.csv
-      		- hog_pca.csv
-      		- additional_features.csv
-
-
-- test\
-    Folder with test images 
-	- test_metadata.csv
-    		Metadata for test images (ids, image filenames only, no labels)
-	- Features\
-    		Contains:
-      		- color_histogram.csv
-      		- hog_pca.csv
-      		- additional_features.csv
-
-- README.txt
-    This file
+```
+|- train/				# Folder with training image
+|    |- train_metadata.csv		# Metadata for training images (ids, image filenames and class labels)
+|    |- Features/
+|         |- color_histogram.csv
+|         |- hog_pca.csv
+|         |- additional_features.csv
+|         |- shape_features.csv
+|         |- texture_features.csv
+|- test/				# Folder with test images 
+|    |- test_metadata.csv		# Metadata for test images (ids, image filenames only, no labels)
+|    |- Features/
+|         |- color_histogram.csv
+|         |- hog_pca.csv
+|         |- additional_features.csv
+|         |- shape_features.csv
+|         |- texture_features.csv
+|- feature_extraction.ipynb
+|- README.txt				# This file
+```
 
 ## Data:
 - 5488 training images with class labels
@@ -40,19 +35,18 @@ The project is organized as follows:
     * Color histograms
     * Additional features (edge density, texture variance, mean RGB)
 
-
 ## Submission Format (Kaggle) (CSV):
 Final submission should follow this structure:
 
-Id,ClassId
-67.jpg,4
-94,2
-...
-521.jpg,12
-
+| Id | ClassId |
+| -- | ------- |
+| 67 | 4 |
+| 94 | 2 |
+| ... | ... |
+| 521 | 12 |
 
 ## Python Version:
-3.9.19
+`3.9.19`
 
 ## Requirments:
 - numpy
