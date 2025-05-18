@@ -38,7 +38,7 @@ The project is organized as follows:
 ## Submission Format (Kaggle) (CSV):
 Final submission should follow this structure:
 
-| Id | ClassId |
+| id | ClassId |
 | -- | ------- |
 | 67 | 4 |
 | 94 | 2 |
