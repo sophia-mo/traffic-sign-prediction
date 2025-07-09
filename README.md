@@ -1,9 +1,9 @@
-# TRAFFIC SIGN CLASSIFICATION – COMP30027 PROJECT 2 (2025)
+# Traffic Sign Classification
 
-## Overview:
-This project aims to classify German traffic signs into one of 43 classes using extracted features. 
+## Overview
+Trafic sign prediction is essential for intelligent transportation systems and autonomous driving. This project compares traditional machine learning models and deep learning approaches for classifying trafic signs. After extracting and selecting diverse image features, models including K-Nearest Neighbors (KNN), Extreme Gradient Boosting (XGBoost), Support Vector Machine (SVM), Random Forest, and a Convolutional Neural Network (CNN) were trained. CNN achieved the highest testaccuracy (99.30%), demonstrating the superior performance of deep learning in image-based classifcation.
 
-## Directory Structure:
+## Directory Structure
 The project is organized as follows:
 ```
 |- train/                        # Folder containing all training images and related files
@@ -40,20 +40,6 @@ The project is organized as follows:
 - 5488 training images with class labels
 - 2353 test images without labels
 - 43 total traffic sign classes
-- Provided features:
-    * HOG (Histogram of Oriented Gradients) - PCA reduced
-    * Color histograms
-    * Additional features (edge density, texture variance, mean RGB)
-
-## Submission Format (Kaggle) (CSV):
-Final submission should follow this structure:
-
-| id | ClassId |
-| -- | ------- |
-| 67 | 4 |
-| 94 | 2 |
-| ... | ... |
-| 521 | 12 |
 
 ## Python Version:
 `3.9.19`
