@@ -36,15 +36,15 @@ The project is organized as follows:
 |- README.txt                    # This file
 ```
 
-## Data:
+## Data
 - 5488 training images with class labels
 - 2353 test images without labels
 - 43 total traffic sign classes
 
-## Python Version:
+## Python Version
 `3.9.19`
 
-## Requirments:
+## Requirments
 - numpy
 - pandas
 - opencv
